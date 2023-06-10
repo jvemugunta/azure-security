@@ -7,6 +7,7 @@ resource "azuread_user" "vivek" {
   force_password_change = true
 }
 
+
 resource "azuread_user" "Bob_Ross" {
   user_principal_name   = "bobross@jvemuguntagmail.onmicrosoft.com"
   display_name          = "Bob Ross"
