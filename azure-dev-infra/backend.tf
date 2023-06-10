@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "centralus-jennasrunbookstf"
-    storage_account_name = "jennasrunbookstfstate"
-    container_name       = "jennasrunbookstf"
-    key                  = "centralus-jennasrunbookstf.tfstate"
+    resource_group_name  = "tfstate"
+    storage_account_name = "tfstate12659"
+    container_name       = "tfstate"
+    key                  = "tfstate12659.tfstate"
   }
 }
