@@ -1,14 +1,14 @@
 # Provision Azure AD Users
-#resource "azuread_user" "Roy_Trenneman" {
-#  user_principal_name   = "roytrenneman@jennasrunbooks.com"
-#  display_name          = "Roy Trenneman"
-#  department            = "Engineering"
-#  password              = "Super$ecret01@!"
-#  force_password_change = true
-#}
+resource "azuread_user" "vivek" {
+  user_principal_name   = "vivek@jvemuguntagmail.onmicrosoft.com"
+  display_name          = "Vivek Vemugunta"
+  department            = "Biology"
+  password              = "Super$ecret01@!"
+  force_password_change = true
+}
 
 resource "azuread_user" "Bob_Ross" {
-  user_principal_name   = "bobross@jennasrunbooks.com"
+  user_principal_name   = "bobross@jvemuguntagmail.onmicrosoft.com"
   display_name          = "Bob Ross"
   department            = "Art"
   password              = "Super$ecret01@!"
@@ -16,7 +16,7 @@ resource "azuread_user" "Bob_Ross" {
 }
 
 resource "azuread_user" "raybrown" {
-  user_principal_name   = "raybrown@jennasrunbooks.com"
+  user_principal_name   = "raybrown@jvemuguntagmail.onmicrosoft.com"
   display_name          = "Ray Brown"
   department            = "Art"
   password              = "Super$ecret01@!"
