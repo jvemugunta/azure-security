@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "centralus-jennasrunbookstf" {
   name     = "centralus-jennasrunbookstf"
-  location = "Central US"
+  location = "East US"
 }
 
 resource "azurerm_storage_account" "jennasrunbookstfstate" {
