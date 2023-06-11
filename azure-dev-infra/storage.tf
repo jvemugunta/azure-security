@@ -16,8 +16,8 @@ resource "azurerm_storage_account" "jagadishrunbookstfstate" {
   }
 }
 
-resource "azurerm_storage_container" "jennasrunbookstf" {
-  name                  = "jennasrunbookstf"
+resource "azurerm_storage_container" "jagadishrunbookstf" {
+  name                  = "jagadishrunbookstf"
   storage_account_name  = azurerm_storage_account.jagadishrunbookstfstate.name
   container_access_type = "blob"
 }
