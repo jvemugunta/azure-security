@@ -19,8 +19,6 @@ jobs:
         include:
           - directory: azure-dev-infra
             auto_apply: no 
-          - directory: azuread-users-groups-roles
-            auto_apply: no  
                       
     defaults:
       run:
