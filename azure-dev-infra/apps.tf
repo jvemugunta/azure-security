@@ -21,6 +21,7 @@ resource "azuread_application" "gh-actions-runbooks-ad" {
       value                      = "user_impersonation"
     }
   }
+  
 
   required_resource_access {
     resource_app_id = "00000003-0000-0000-c000-000000000000" # Microsoft Graph

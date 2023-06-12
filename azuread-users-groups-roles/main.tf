@@ -2,7 +2,7 @@
 resource "azuread_user" "vivek" {
   user_principal_name   = "vivek@jvemuguntagmail.onmicrosoft.com"
   display_name          = "Vivek Vemugunta"
-  department            = "Biology"
+  department            = "Art"
   password              = "Super$ecret01@!"
   force_password_change = true
 }
@@ -35,7 +35,7 @@ resource "azuread_group" "Readers" {
 
   dynamic_membership {
     enabled = true
-    rule    = "user.userPrincipalName -contains \"jennasrunbooks\""
+    rule    = "user.userPrincipalName -contains \"jvemuguntagmail\""
   }
 }
 
